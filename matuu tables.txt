@@ -1,0 +1,43 @@
+
+/* starting new transaction */
+
+START TRANSACTION;
+
+/*create tables...>>>Appointments Table<<<<*/
+
+CREATE TABLE patientvisitdetails(
+pntID int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pntName varchar(60) NOT NULL,
+    pntPhoneNo int(11) NOT NULL,
+    pntEmail varchar(60) NOT NULL,
+    pntResidence varchar(60) NOT NULL,
+    pntAge int(11) NOT NULL,
+    pntGender varchar(60) NOT NUll,
+    pntOpCategory varchar(60) NOT NULL,
+    docName varchar(60) NOT NULL
+);
+
+/*creating >>>clinics table<<<*/
+CREATE TABLE clinics(
+cintID int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    opCategory varchar(60) NOT NULL
+);
+
+/*Ctraeting>>>>Doctors table<<*/
+CREATE TABLE doctors(
+docID int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    docName varchar(60) NOT NULL,
+    docEmail varchar(60) NOT NULL,
+    docSpec varchar(60) NOT NULL
+);
+
+/*Creating>>>>admins taable<<<<*/
+CREATE TABLE admins(
+adminID int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    fullName varchar(60) NOT NULL,
+    loginName varchar(60) NOT NULL,
+    adminEmail varchar(60) NOT NULL,
+    pwd varchar(60) NOT NULL
+);
+
+COMMIT;

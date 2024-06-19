@@ -1,0 +1,11 @@
+[24-Jan-2024 18:22:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/matuumis/public_html/header.php on line 1
+[28-Jan-2024 09:32:23 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/matuumis/public_html/header.php on line 1
+[04-Feb-2024 01:20:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/matuumis/public_html/header.php on line 1
+[14-Mar-2024 20:37:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[24-Apr-2024 23:17:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[26-Apr-2024 00:05:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[17-May-2024 17:50:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[28-May-2024 14:16:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[02-Jun-2024 12:42:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[04-Jun-2024 01:57:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
+[04-Jun-2024 21:44:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/matuumis/public_html/header.php on line 1
